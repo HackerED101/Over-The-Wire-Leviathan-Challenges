@@ -1,4 +1,4 @@
-# OverTheWire - Leviathan Level 1 Setup Guide
+# OverTheWire - Leviathan Level 2 Setup Guide
 
 This guide explains how to complete **Leviathan Level 2** and retrieve the password for **Level 3**.
 
