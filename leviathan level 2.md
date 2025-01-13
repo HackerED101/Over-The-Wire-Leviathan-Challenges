@@ -22,10 +22,10 @@ Before you begin, ensure you have the following:
 
 1. **Open a terminal**: If you're on Linux or macOS, open a terminal window. On Windows, you may need an SSH client like `PuTTY` or use the Windows Subsystem for Linux (WSL).
 
-2. **Use `sshpass` to log in**: The username for **Level 2** is `leviath2`, and the password is the one you retrieved from **Level 1**. Use the following command to log in via SSH:
+2. **Use `sshpass` to log in**: The username for **Level 2** is `leviathan2`, and the password is the one you retrieved from **Level 1**. Use the following command to log in via SSH:
 
     ```bash
-    sshpass -p <password_from_level_1> ssh leviath2@leviathan.labs.overthewire.org -p 2223
+    sshpass -p <password_from_level_1> ssh leviathan2@leviathan.labs.overthewire.org -p 2223
     ```
 
    Replace `<password_from_level_1>` with the password you found in Level 1.
@@ -42,10 +42,10 @@ Before you begin, ensure you have the following:
 
 4. **Enter the password**: After entering the `sshpass` command, you should be logged in to the server. If you're not using `sshpass`, the server will prompt you for the password you retrieved from Level 1.
 
-5. **You're in!**: Once logged in, you should see a welcome message and the prompt for the `leviath2` user:
+5. **You're in!**: Once logged in, you should see a welcome message and the prompt for the `leviathan2` user:
    
     ```bash
-    leviath2@gibson:~$
+    leviathan2@gibson:~$
     ```
 
 6. **Check who you are**: To verify your current user, run the following command:
