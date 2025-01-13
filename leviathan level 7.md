@@ -15,14 +15,14 @@ ssh leviathan7@leviathan.labs.overthewire.org -p 2223
 
 2. **List the contents** of the directory:
 
-ls -la
+```ls -la ```
 
 
 3. You should see a file named `CONGRATULATIONS` in the output, with restricted read permissions.
 
 4. **Read the contents** of the `CONGRATULATIONS` file by running the `cat` command:
 
-cat CON*
+```cat CON* ```
 
 
 This will display the congratulatory message, confirming you have completed the Leviathan wargame:
